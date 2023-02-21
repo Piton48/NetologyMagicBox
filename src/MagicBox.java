@@ -24,7 +24,7 @@ public class MagicBox<T> {
             Random random = new Random();
             return items[random.nextInt(maxCapacity)];
         } else {
-            throw new RuntimeException("Магическая Коробка не заполнена!");
+            throw new RuntimeException("В Магическщй Коробке не хватает " + (this.maxCapacity - this.counter) + " предмета(ов)!");
         }
     }
 }
