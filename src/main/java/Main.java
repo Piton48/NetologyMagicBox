@@ -5,7 +5,7 @@ public class Main {
 
         str.add("Vanya");
         str.add("Olya");
-        //str.add("Petya");
+        str.add("Petya");
 
         for (int i = 0; i < 20; i++){
             num.add(i);
